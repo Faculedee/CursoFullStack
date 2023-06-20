@@ -1,3 +1,71 @@
 body{
     background-color: plum ;
+    background-image: url(../Img/Fondo\ Postres.jpg);
+    background-size: 100%;
+}
+
+#cabecera{}
+
+h1{
+    font-style: oblique;
+    background-color: azure;
+    max-width: max-content;
+}
+nav{
+    max-width: 550px;
+    background-color: lightblue;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 150px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+    list-style: none;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.menu-horizontal > li:hover{
+    background-color: red;
+
+}
+
+.menu-vertical{
+   position: absolute;
+   background-color: aqua;
+   display: none;
+   list-style: none;
+   width: 200px;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+ display: block;
+ max-width: fit-content;  
+
+}
+
+.menu-vertical li:hover{
+    background-color: blueviolet;
+}
+
+.menu-vertical li a:hover{
+    color: white;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 5px 3px 5px;
+}
+
+#videito{
+    margin-left: 200px;
+    margin-top: 120px;
 }
