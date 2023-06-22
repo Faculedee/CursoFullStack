@@ -2,6 +2,7 @@ body{
     background-color: plum ;
     background-image: url(../Img/Fondo\ Postres.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #cabecera{}
@@ -11,12 +12,13 @@ h1{
     background-color: azure;
     max-width: max-content;
 }
-nav{
+.nav1{
     max-width: 550px;
     background-color: lightblue;
     margin: auto;
+    transform: translate(0%,-400%);
     font-size: 20px;
-    margin-top: 150px;
+    margin-top: 0px;
 }
 .menu-horizontal{
     list-style: none;
@@ -29,7 +31,32 @@ nav{
     display: block;
     padding: 10px 15px;
     text-decoration: none;
-    color: ghostwhite;
+    color: black;
+}
+
+#quien{
+    background-color: blanchedalmond;
+    max-width: max-content;
+    float: right;
+}
+
+.quien1{
+    background-color: burlywood;
+    max-width: max-content;
+    
+}
+
+.bot1{
+    margin-left: 60px;
+}
+
+label{
+    background-color: coral;
+}
+
+button{
+    margin: 3px;
+    margin-left: 1px;
 }
 
 .menu-horizontal > li:hover{
@@ -66,6 +93,17 @@ nav{
 }
 
 #videito{
-    margin-left: 200px;
-    margin-top: 120px;
+    margin-left: 400px;
+    margin-top: 50px;
+
+
 }
+
+.listapie{
+    max-width: 300px;
+    background-color: lightblue;
+    margin: 50px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
