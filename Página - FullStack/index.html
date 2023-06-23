@@ -17,7 +17,7 @@
             <header>
 
                 <div>
-                    <a href="index.html"><img src="Img/Logo Pasteleria.png" alt="Botón de Inicio" width="115"></a>
+                    <a class="fotito" href="index.html"><img src="Img/Logo Pasteleria.png" alt="Botón de Inicio" width="115"></a>
                 </div>
 
                 <h1>Dulces gustos</h1>
@@ -78,26 +78,38 @@
         </div>
 
         <div id="videito">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wD-g_Gyn2I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="520" height="315" src="https://www.youtube.com/embed/wD-g_Gyn2I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
     </div>
 
     <div class="xq">
+
         <h2 id="quien">¿Quienes Sómos?</h2>
-        <p class="quien1">Nosotros somos una empresa dedicada a la pasteleria .....</p>
+
+       <div>
+        <p class="quien1">Nosotros somos una empresa llamada dedicada a la pasteleria.</p> <br> <br>
+        <p class="quien2">Estamos Ubicados en la localidad de San Francisco - Córdoba</p>
+       </div>
+        
     </div>
 
 
-    <div id="encuesta">
-        <p>Breve encuesta...</p>
-        <form action="" method="get">
+    <div id="encuesta" class="encuesta">
+        <h2>Breve encuesta...</h2>
+        <form action="" method="post">
 
             <label for="name">Nombre</label>
             <input type="text" name="nombre" id=""> <br>
 
             <label for="fecha">Fecha de Hoy</label>
             <input type="date" name="fecha" id="fecha"> <br>
+
+            <label for="postre">¿Cuál de nuestras comidas prefiere?</label>
+            <input type="text" name="Postre Favorito" id="postre"> <br>
+
+            <label for="exp">¿Como fue su experiencia en la página?</label>
+            <input type="range" name="nivel de experiencia" id="exp"> <br>
 
             <button class="bot1" type="submit">Enviar</button>
             <button type="reset">Restablecer</button>
@@ -115,18 +127,14 @@
 
                     <li>
                         <a href="#cabecera">Inicio</a>
-                    </li>
-
-                    <li>
-                        <a href="postres.html" target="_blank">Postres</a>
-                    </li>
-
-                    <li>
-                        <a href="tortas.html" target="_blank">Tortas</a>
                     </li>   
 
                     <li>
                         <a href="#quien">¿Quienes Somos?</a>
+                    </li>
+
+                    <li>
+                        <a href="#encuesta">Breve encuesta</a>
                     </li>
 
                     <li>

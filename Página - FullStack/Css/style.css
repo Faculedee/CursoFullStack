@@ -5,13 +5,28 @@ body{
     background-repeat: no-repeat;
 }
 
-#cabecera{}
+.fotito{
+    margin-left: 31px;
+}
+ 
+#cabecera{
+    max-height: 215px;
+}
 
 h1{
     font-style: oblique;
     background-color: azure;
     max-width: max-content;
+    font-size: 27px;
+    transform: translate(10%,-40%);
 }
+
+h2{
+    background-color: white;
+    max-width: max-content;
+    transform: translate(50%);
+}
+
 .nav1{
     max-width: 550px;
     background-color: lightblue;
@@ -38,12 +53,22 @@ h1{
     background-color: blanchedalmond;
     max-width: max-content;
     float: right;
+    transform: translate(-65%, -1250%);
 }
 
 .quien1{
     background-color: burlywood;
-    max-width: max-content;
+    max-width: 3650px;
+    float: right; 
+    transform: translate(40%, -1630%);
+}
+
+.quien2{
     
+    background-color: burlywood;
+    max-width: 3650px;
+    float: right; 
+    transform: translate(140%, -1680%);
 }
 
 .bot1{
@@ -93,9 +118,7 @@ button{
 }
 
 #videito{
-    margin-left: 400px;
-    margin-top: 50px;
-
+    margin-left: 30px;
 
 }
 
@@ -107,3 +130,7 @@ button{
     margin-top: 100px;
 }
 
+#encuesta{
+    float: right;
+    transform: translate(-1.5%, -165%);
+}

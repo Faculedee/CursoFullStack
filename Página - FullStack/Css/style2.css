@@ -1,0 +1,91 @@
+body{
+    background-color: plum ;
+    background-image: url(../Img/Fondo\ Postres.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.fotito{
+    margin-left: 31px;
+}
+ 
+#cabecera{
+    max-height: 215px;
+}
+
+h1{
+    font-style: oblique;
+    background-color: azure;
+    max-width: max-content;
+    font-size: 27px;
+    transform: translate(10%,-40%);
+}
+
+.nav1{
+    max-width: 550px;
+    background-color: lightblue;
+    margin: auto;
+    transform: translate(0%,-400%);
+    font-size: 20px;
+    margin-top: 0px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+    list-style: none;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.menu-horizontal > li:hover{
+    background-color: red;
+
+}
+
+.menu-vertical{
+   position: absolute;
+   background-color: aqua;
+   display: none;
+   list-style: none;
+   width: 200px;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+ display: block;
+ max-width: fit-content;  
+
+}
+
+.menu-vertical li:hover{
+    background-color: blueviolet;
+}
+
+.menu-vertical li a:hover{
+    color: white;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 5px 3px 5px;
+}
+
+.postre{
+    margin-left: 18px;   
+}
+
+h3{
+    color:rgb(24, 21, 21);
+    background-color: antiquewhite;
+    max-width: max-content;
+    transform: translate(-3.6%);
+    float: right;
+}
