@@ -8,14 +8,14 @@ body{
 .fotito{
     margin-left: 31px;
 }
- 
+
 #cabecera{
     max-height: 215px;
 }
 
 h1{
     font-style: oblique;
-    background-color: azure;
+    background-color: rgb(246, 85, 252);
     max-width: max-content;
     font-size: 27px;
     transform: translate(10%,-40%);
@@ -46,21 +46,21 @@ h1{
 
 
 .menu-horizontal > li:hover{
-    background-color: red;
-
+    background-color:  rgb(95, 200, 235);
+    
 }
 
 .menu-vertical{
-   position: absolute;
-   background-color: aqua;
-   display: none;
-   list-style: none;
-   width: 200px;
+    position: absolute;
+    background-color: aqua;
+    display: none;
+    list-style: none;
+    width: 200px;
 }
 
 .menu-horizontal li:hover .menu-vertical{
- display: block;
- max-width: fit-content;  
+    display: block;
+    max-width: fit-content;  
 
 }
 
@@ -69,17 +69,23 @@ h1{
 }
 
 .menu-vertical li a:hover{
-    color: white;
+    color:  rgb(250, 228, 228);
 }
 
 .menu-vertical li a{
     display: block;
     color: black;
     padding: 5px 3px 5px;
+    text-decoration: none;
 }
 
 .postre{
     margin-left: 18px;   
+    border-radius: 40%;
+    border: 10px solid ;
+    border-color: lightblue;
+    height: 300px;
+    width: 300px;
 }
 
 h3{
