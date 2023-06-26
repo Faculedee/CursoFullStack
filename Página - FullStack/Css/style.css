@@ -8,10 +8,6 @@ body{
 .fotito{
     margin-left: 31px;
 }
- 
-input{
-    background-color: rgb(241, 197, 129);
-}
 
 #cabecera{
     max-height: 215px;
@@ -25,12 +21,6 @@ h1{
     transform: translate(10%,-40%);
 }
 
-h2{
-    background-color: rgb(255, 111, 159);
-    max-width: max-content;
-    transform: translate(50%);
-}
-
 .nav1{
     max-width: 550px;
     background-color: lightblue;
@@ -39,6 +29,7 @@ h2{
     font-size: 20px;
     margin-top: 0px;
 }
+
 .menu-horizontal{
     list-style: none;
     display: flex;
@@ -51,6 +42,50 @@ h2{
     padding: 10px 15px;
     text-decoration: none;
     color: black;
+}
+
+.menu-horizontal > li:hover{
+    background-color: rgb(95, 200, 235);
+
+}
+
+.menu-horizontal li:hover .menu-vertical{
+ display: block;
+ max-width: fit-content;  
+}
+
+.menu-vertical{
+    position: absolute;
+    background-color: aqua;
+    display: none;
+    list-style: none;
+    width: 200px;
+}
+ 
+.menu-vertical li:hover{
+    background-color: blueviolet;
+}
+
+.menu-vertical li a:hover{
+    color: rgb(250, 228, 228);
+}
+
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 5px 3px 5px;
+    text-decoration: none;
+}
+
+#videito{
+    margin-left: 30px;
+
+}
+
+h2{
+    background-color: rgb(255, 111, 159);
+    max-width: max-content;
+    transform: translate(50%);
 }
 
 #quien{
@@ -75,8 +110,18 @@ h2{
     transform: translate(140%, -1680%);
 }
 
+
+#encuesta{
+    float: right;
+    transform: translate(-1.5%, -165%);
+}
+
 .bot1{
     margin-left: 60px;
+}
+
+input{
+    background-color: rgb(241, 197, 129);
 }
 
 label{
@@ -89,53 +134,27 @@ button{
     background-color: rgb(170, 170, 255);
 }
 
-.menu-horizontal > li:hover{
-    background-color: rgb(137, 137, 255)
-
-}
-
-.menu-vertical{
-   position: absolute;
-   background-color: aqua;
-   display: none;
-   list-style: none;
-   width: 200px;
-}
-
-.menu-horizontal li:hover .menu-vertical{
- display: block;
- max-width: fit-content;  
-
-}
-
-.menu-vertical li:hover{
-    background-color: blueviolet;
-}
-
-.menu-vertical li a:hover{
-    color: rgb(255, 168, 168);
-}
-
-.menu-vertical li a{
-    display: block;
-    color: black;
-    padding: 5px 3px 5px;
-}
-
-#videito{
-    margin-left: 30px;
-
-}
-
 .listapie{
-    max-width: 300px;
+    max-width: max-content;
     background-color: pink;
     margin: 50px;
     font-size: 20px;
     margin-top: 100px;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
 }
 
-#encuesta{
-    float: right;
-    transform: translate(-1.5%, -165%);
+.listapie > li{
+    display: block;
 }
+
+.listapie > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: grey;
+}
+
